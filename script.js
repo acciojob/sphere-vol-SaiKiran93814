@@ -5,7 +5,6 @@ function volume_sphere() {
 
   const radius = parseFloat(radiusInput);
 
-  // Validate: must be a number and non-negative
   if (isNaN(radius) || radius < 0) {
     volumeOutput.value = 'NaN';
     return;
